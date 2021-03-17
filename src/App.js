@@ -1,13 +1,6 @@
-import logo from './logo.svg';
 
-import Header from './components/Header';
-import Menu from './components/Menu';
-import Section from './components/section';
-import Configuration from './components/Configuration';
-import Realisation from './components/Realisation';
-import './app.css'
-import Notice from './components/Notice';
-import Magasin from './components/Magasin';
+import './App.css'
+
 import Acceuil from './pages/Acceuil';
 import Boutique from './pages/Boutique';
 import {
