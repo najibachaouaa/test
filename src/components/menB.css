@@ -1,0 +1,115 @@
+.acceuilB,.boutiqueB,.contactB,.realisationsB{
+
+    width: 273px;
+    height: 50px;
+    border: 1px solid #E2E2E2;
+    opacity: 1;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font: normal normal normal 16px/20px PT Sans;
+    letter-spacing: 0px;
+color: #1F1F1F;
+opacity: 1;
+background-color: white;
+
+   
+}
+.menuB{
+    background: #653D36;
+    left: 0px;
+width: 1366px;
+height: 280px;
+}
+.Produit{
+    top: 139px;
+    left: 139px;
+    width: 220px;
+    height: 61px;
+    color: var(--unnamed-color-7daf3f);
+    text-align: left;
+    font: normal normal bold 47px/61px PT Sans;
+    letter-spacing: 0px;
+    color: #7DAF3F;
+}
+.category{
+
+    left: 139px;
+width: 260px;
+height: 369px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #E2E2E2;
+opacity: 1;
+}
+.vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+  }
+  
+  .vertical-menu a:hover {
+    background-color: #ccc;
+  }
+  
+  .vertical-menu a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  .mobile-option {
+    display: none;
+  }
+  
+  .option :hover {
+    color: white;
+  }
+ 
+  
+  .mobile-menu {
+    display: none;
+  }
+  
+  @media (max-width: 640px ) {
+    /*Mobile View */
+
+    .nav-options {
+      display: flex;
+      width: 100%;
+      height: 350px;
+      position: absolute;
+      /* top: 80px; */
+      left: -100%;
+      opacity: 0;
+      transition: all 0.5s ease;
+      flex-direction: column;
+      list-style-type: none;
+      grid-gap: 0px;
+    }
+    .nav-options.active {
+      background: #9899d1;
+      left: 0;
+      opacity: 1;
+      transition: all 0.5s ease;
+      z-index: 1;
+      align-content: center;
+      padding-left: 0px;
+    }
+  
+    .menu-icon {
+      width: 50px;
+      height: 50px;
+     
+      top: -5%;
+      margin-left: 300px;  
+    margin-top: -400px;  }
+    .Produit{
+      display: none
+  }
+  
+  }
+  .mobile-menu {
+    display: block;
+  }
+  
